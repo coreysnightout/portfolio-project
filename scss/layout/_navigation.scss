@@ -12,10 +12,36 @@ body {
   background-color: ($nav-color);
   display: flex;
   justify-content: space-between;
+  align-self: center;
   color: $nav-text;
 }
 
-.nav-wrap h4, h6 {
-  margin: 20px;
+.logo img {
+  width: 40px;
+  margin: 10px 20px;
+}
+
+.logo img {
+  @include medium {
+    justify-items: center;
+  }
+}
+
+.nav-wrap h5, h6 {
+  margin: 0 20px;
   align-self: center;
+  font-family: liquide;
+  justify-content: center;
+}
+
+.nav-wrap h6 {
+  @include small {
+    display: none;
+  }
+}
+
+.nav-wrap h6 {
+  @include medium {
+    display: block;
+  }
 }
