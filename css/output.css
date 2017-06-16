@@ -4,8 +4,22 @@ body {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-body {
+.card img {
+  width: 100%; }
+
+.body-wrap {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2% 5%;
+  flex-direction: row; }
+
+.card {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px; }
+
+body {
   margin: 0; }
 
 .nav-wrap {
@@ -13,6 +27,7 @@ body {
   height: 60px;
   background-color: #161712;
   display: flex;
+  flex: 1;
   justify-content: space-between;
   align-self: center;
   color: #f7fbfc; }
