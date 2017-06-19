@@ -31,8 +31,15 @@ body {
   margin: 0 20px;
   align-self: center;
   font-family: liquide;
+  letter-spacing: 2px;
   justify-content: center;
 }
+
+.nav-wrap h5:hover, h6:hover {
+  transform: translate(5px, 5px);
+  color: salmon;
+}
+
 
 .nav-wrap h6 {
   @include small {
