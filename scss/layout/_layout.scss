@@ -16,8 +16,14 @@ body {
 
 .card1, .card2, .card3, .card4, .card5, .card6 {
   margin: 20px;
+  // display: flex;
 }
 
 .body-wrap img {
   width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
 }
