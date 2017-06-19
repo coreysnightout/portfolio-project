@@ -1,5 +1,6 @@
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  position: relative; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -12,7 +13,11 @@ body {
   margin: 0%; }
 
 .card1, .card2, .card3, .card4, .card5, .card6 {
-  margin: 20px; }
+  margin: 20px;
+  border-top: 3px solid tomato;
+  border-bottom: 3px solid tomato;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .body-wrap img {
   width: 100%; }
@@ -26,6 +31,36 @@ body {
 h5 {
   margin-top: 5px;
   margin-bottom: 0; }
+
+.thank-you {
+  width: 700px;
+  height: 75px;
+  background-color: tomato;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: intro;
+  color: white;
+  letter-spacing: 2.2px;
+  font-size: 14px; }
+
+.thank-you:before {
+  content: 'thank you for visiting!'; }
+
+.thank-you:hover:before {
+  transform: translate(0, -360%);
+  transition: all .8s; }
+
+.thank-you:hover {
+  background-image: url(../img/beer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  transition: ease 1s; }
 
 body {
   margin: 0; }
@@ -56,8 +91,8 @@ body {
   justify-content: center; }
 
 .nav-wrap h5:hover, h6:hover {
-  transform: translate(5px, 5px);
-  color: salmon; }
+  transform: translate(5px, 2px);
+  color: tomato; }
 
 @media (min-width: 320px) {
   .nav-wrap h6 {
@@ -79,5 +114,8 @@ body {
 @font-face {
   font-family: liquide;
   src: url(../fonts/liquide.otf); }
+@font-face {
+  font-family: flat;
+  src: url(../fonts/flat.otf); }
 
 /*# sourceMappingURL=output.css.map */

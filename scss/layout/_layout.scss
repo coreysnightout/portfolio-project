@@ -1,5 +1,10 @@
+
+$nav-text: #f7fbfc;
+$nav-color: #161712;
+
 body {
   box-sizing: border-box;
+  position: relative;
 }
 
 *, *:before, *:after {
@@ -16,7 +21,10 @@ body {
 
 .card1, .card2, .card3, .card4, .card5, .card6 {
   margin: 20px;
-  // display: flex;
+  border-top: 3px solid tomato;
+  border-bottom: 3px solid tomato;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .body-wrap img {
@@ -33,4 +41,38 @@ body {
 h5 {
   margin-top: 5px;
   margin-bottom: 0;
+}
+
+.thank-you {
+  width: 700px;
+  height: 75px;
+  background-color: tomato;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: intro;
+  color: white;
+  letter-spacing: 2.2px;
+  font-size: 14px;
+}
+
+.thank-you:before {
+  content: 'thank you for visiting!';
+}
+// transition usage //
+.thank-you:hover:before {
+  transform: translate(0, -360%);
+  transition: all .8s;
+}
+
+.thank-you:hover {
+  background-image: url(../img/beer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  transition: ease 1s;
 }

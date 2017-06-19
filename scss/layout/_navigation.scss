@@ -36,10 +36,9 @@ body {
 }
 
 .nav-wrap h5:hover, h6:hover {
-  transform: translate(5px, 5px);
-  color: salmon;
+  transform: translate(5px, 2px);
+  color: tomato;
 }
-
 
 .nav-wrap h6 {
   @include small {
