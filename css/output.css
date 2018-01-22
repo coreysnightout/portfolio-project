@@ -85,6 +85,36 @@ h5 {
     transform: translate3d(-4px, 0, 0); }
   40%, 60% {
     transform: translate3d(4px, 0, 0); } }
+.tester {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.redwood {
+  width: 350px;
+  border-top: 3px solid tomato;
+  border-bottom: 3px solid tomato;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.name {
+  font-family: intro;
+  margin-top: 20px;
+  margin-bottom: 0px; }
+
+.title {
+  font-size: 1.8em;
+  color: tomato;
+  margin: 5px; }
+
+.info {
+  width: 75%;
+  text-align: justify;
+  font-family: sans-serif;
+  hyphens: none; }
+
 body {
   margin: 0; }
 
