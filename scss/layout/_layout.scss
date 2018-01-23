@@ -141,8 +141,10 @@ h5 {
 }
 
 .info {
-  width: 75%;
+  width: 70%;
   text-align: justify;
   font-family: sans-serif;
   hyphens: none;
+  border-top: 3px solid tomato;
+  padding-top: 10px;
 }
