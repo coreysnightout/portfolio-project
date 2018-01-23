@@ -1,2 +1,2 @@
-##Portfolio Project
+# Portfolio Project
 ### Corey Redding
