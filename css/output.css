@@ -106,7 +106,7 @@ h5 {
 
 .title {
   font-size: 1.8em;
-  color: tomato;
+  color: black;
   margin: 5px; }
 
 .info {
@@ -130,6 +130,19 @@ h5 {
   width: 45px;
   height: 45px; }
 
+.fb:hover, .github:hover, .link:hover {
+  -webkit-animation-name: rotateThis;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease; }
+
+@-webkit-keyframes rotateThis {
+  0% {
+    -webkit-transform: scale(1) rotate(0deg); }
+  10% {
+    -webkit-transform: scale(1.1) rotate(0deg); }
+  100% {
+    -webkit-transform: scale(1.1) rotate(360deg); } }
 body {
   margin: 0; }
 
