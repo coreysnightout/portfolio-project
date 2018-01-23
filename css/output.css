@@ -115,7 +115,20 @@ h5 {
   font-family: sans-serif;
   hyphens: none;
   border-top: 3px solid tomato;
-  padding-top: 10px; }
+  padding-top: 10px;
+  border-bottom: 3px solid tomato;
+  padding-bottom: 10px; }
+
+.con-group {
+  display: flex;
+  justify-content: center; }
+
+.fb, .link, .github {
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 45px;
+  height: 45px; }
 
 body {
   margin: 0; }
