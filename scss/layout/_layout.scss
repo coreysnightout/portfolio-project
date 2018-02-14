@@ -176,3 +176,64 @@ h5 {
     10% { -webkit-transform:scale(1.1) rotate(0deg); }
     100% {-webkit-transform:scale(1.1) rotate(360deg); }
 }
+
+
+.contact {
+  margin-left: 25px;
+  margin-bottom: 0px;
+}
+
+.contact-button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+  border: solid tomato;
+}
+
+.form-title {
+  font-family: intro;
+  font-size: 1em;
+  margin-bottom: -10px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+input {
+  border-radius: 3px;
+  border: 1px white;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding-top:5px;
+  padding-left: 5px;
+}
+
+textarea {
+  border-radius: 3px;
+  border: 1px white;
+  outline: 0;
+  background: transparent;
+  background-color: white;
+  border-bottom: 1px solid white;
+  width: 150px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top:5px;
+  padding-left: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background: black;
+  height: 250px;
+}
