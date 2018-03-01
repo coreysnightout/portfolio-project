@@ -197,6 +197,48 @@ textarea {
   background: black;
   height: 250px; }
 
+.skills {
+  width: 100vw;
+  background-color: black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.design, .web-design, .photo {
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column; }
+
+img {
+  width: 156px;
+  align-self: center; }
+
+.icon-title {
+  color: white;
+  font-family: blanch;
+  text-align: center;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  margin-top: -10px; }
+
+.icon-text {
+  width: 256px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 13px;
+  margin-top: -20px;
+  line-height: 22px;
+  letter-spacing: 1px; }
+
 body {
   margin: 0; }
 
