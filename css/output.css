@@ -66,7 +66,7 @@ h5 {
   background-position: center;
   align-self: center;
   transition: ease 1s; }
-  @media (max-width: 640px) {
+  @media (max-width: 645px) {
     .thank-you:hover {
       background-image: url(../img/beer.png);
       background-repeat: no-repeat;
@@ -246,45 +246,45 @@ img {
   line-height: 22px;
   letter-spacing: 1px; }
 
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   .thank-you {
-    width: 320px;
+    width: 350px;
     height: 75px; } }
 
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   .design {
     width: 100vw;
     margin: 0px;
     align-items: center; } }
 
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   .photo {
     width: 100vw;
     margin: 0px;
     align-items: center; } }
 
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   .web-design {
     width: 100vw;
     margin: 0px;
     align-items: center; } }
 
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   textarea {
-    width: 300px;
+    width: 350px;
     height: 70px; } }
 
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   input {
-    width: 300px; } }
+    width: 350px; } }
 
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   .contact {
     margin: 0 auto; } }
 
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   .contact-button {
-    width: 300px; } }
+    width: 350px; } }
 
 body {
   margin: 0; }
