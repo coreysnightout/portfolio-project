@@ -1,7 +1,7 @@
 
 $nav-text: #f7fbfc;
 $nav-color: #161712;
-$small-width: 640px;
+$small-width: 645px;
 
 @mixin small {
   @media (max-width: #{$small-width}) {
@@ -302,7 +302,7 @@ img {
 
 .thank-you{
   @include small {
-    width: 320px;
+    width: 350px;
     height: 75px;
   }
 }
@@ -333,7 +333,7 @@ img {
 
 textarea {
   @include small {
-    width: 300px;
+    width: 350px;
     height: 70px;
     // text-align: center;
   }
@@ -341,7 +341,7 @@ textarea {
 
 input {
     @include small {
-      width: 300px;
+      width: 350px;
   }
 }
 
@@ -353,6 +353,6 @@ input {
 
 .contact-button {
   @include small {
-    width: 300px;
+    width: 350px;
   }
 }
