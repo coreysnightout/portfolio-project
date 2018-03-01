@@ -1,7 +1,7 @@
 
 $nav-text: #f7fbfc;
 $nav-color: #161712;
-$small-width: 420px;
+$small-width: 640px;
 
 @mixin small {
   @media (max-width: #{$small-width}) {
