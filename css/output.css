@@ -326,6 +326,27 @@ body {
   .nav-wrap h6 {
     display: block; } }
 
+.lander {
+  background-color: black;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around; }
+
+.logo-lander {
+  margin-top: 0px;
+  position: absolute;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes move {
+  0% {
+    top: -100px; }
+  100% {
+    top: 400px; } }
 @font-face {
   font-family: blanch;
   src: url(../fonts/blanch.otf); }
