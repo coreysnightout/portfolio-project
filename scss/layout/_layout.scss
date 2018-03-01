@@ -1,6 +1,13 @@
 
 $nav-text: #f7fbfc;
 $nav-color: #161712;
+$small-width: 420px;
+
+@mixin small {
+  @media (max-width: #{$small-width}) {
+    @content;
+  }
+}
 
 body {
   box-sizing: border-box;
@@ -81,6 +88,13 @@ h5 {
   background-position: center;
   align-self: center;
   transition: ease 1s;
+  @include small {
+    background-image: url(../img/beer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+    transition: ease .5s;
+  }
 }
 
 .reset {
@@ -258,6 +272,7 @@ textarea {
   display: flex;
   flex-direction: column;
 }
+
 img {
   width: 156px;
   align-self: center;
@@ -283,4 +298,61 @@ img {
   margin-top: -20px;
   line-height: 22px;
   letter-spacing: 1px;
+}
+
+.thank-you{
+  @include small {
+    width: 320px;
+    height: 75px;
+  }
+}
+
+.design {
+  @include small {
+    width: 100vw;
+    margin: 0px;
+    align-items:center;
+  }
+}
+
+.photo {
+  @include small {
+    width: 100vw;
+    margin: 0px;
+    align-items:center;
+  }
+}
+
+.web-design {
+  @include small {
+    width: 100vw;
+    margin: 0px;
+    align-items:center;
+  }
+}
+
+textarea {
+  @include small {
+    width: 300px;
+    height: 70px;
+    // text-align: center;
+  }
+}
+
+input {
+    @include small {
+      width: 300px;
+  }
+}
+
+.contact {
+  @include small {
+    margin: 0 auto;
+  }
+}
+
+.contact-button {
+  @include small {
+    width: 300px;
+  }
 }

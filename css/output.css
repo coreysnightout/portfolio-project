@@ -66,6 +66,13 @@ h5 {
   background-position: center;
   align-self: center;
   transition: ease 1s; }
+  @media (max-width: 420px) {
+    .thank-you:hover {
+      background-image: url(../img/beer.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      align-self: center;
+      transition: ease .5s; } }
 
 .reset {
   text-decoration: none; }
@@ -238,6 +245,46 @@ img {
   margin-top: -20px;
   line-height: 22px;
   letter-spacing: 1px; }
+
+@media (max-width: 420px) {
+  .thank-you {
+    width: 320px;
+    height: 75px; } }
+
+@media (max-width: 420px) {
+  .design {
+    width: 100vw;
+    margin: 0px;
+    align-items: center; } }
+
+@media (max-width: 420px) {
+  .photo {
+    width: 100vw;
+    margin: 0px;
+    align-items: center; } }
+
+@media (max-width: 420px) {
+  .web-design {
+    width: 100vw;
+    margin: 0px;
+    align-items: center; } }
+
+@media (max-width: 420px) {
+  textarea {
+    width: 300px;
+    height: 70px; } }
+
+@media (max-width: 420px) {
+  input {
+    width: 300px; } }
+
+@media (max-width: 420px) {
+  .contact {
+    margin: 0 auto; } }
+
+@media (max-width: 420px) {
+  .contact-button {
+    width: 300px; } }
 
 body {
   margin: 0; }
